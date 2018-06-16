@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -118,8 +117,10 @@ public class NewsListActivity extends BaseActivity
 
             @Override
             public void onNext(List<NewsVO> value) {
-                mNewsAdapter.appendNewData(value);
-                processPrime();
+                if (value != null && value.size() > 0) {
+                    mNewsAdapter.appendNewData(value);
+                }
+
             }
 
             @Override
@@ -135,6 +136,7 @@ public class NewsListActivity extends BaseActivity
 
         NewsModel.getInstance().loadMMNews(getApplicationContext());
         NewsModel.getInstance().initPublishSubject(mNewsVOPublishSubject);
+        calculatePrime();
     }
 
     @Override
@@ -215,12 +217,12 @@ public class NewsListActivity extends BaseActivity
     }
 
 
-    public void processPrime() {
+    public void calculatePrime() {
 
         Single<String> primeSingle = Single.fromCallable(new Callable<String>() {
             @Override
             public String call() throws Exception {
-                int[] numbers = new int[]{2, 34, 56, 23, 45, 43};
+                int[] numbers = new int[]{2, 34, 56, 23, 45, 43, 45, 24};
                 return calcPrime(numbers);
             }
         });
@@ -240,7 +242,7 @@ public class NewsListActivity extends BaseActivity
 
                     @Override
                     public void onError(Throwable e) {
-
+                        Log.e(this.getClass().getSimpleName(), e.getMessage());
                     }
                 });
     }
@@ -248,14 +250,14 @@ public class NewsListActivity extends BaseActivity
     private String calcPrime(int... numbers) {
         String primes = "";
         for (int i = 0; i < numbers.length; i++) {
-            if (isProme(numbers[i])) {
+            if (isPrime(numbers[i])) {
                 primes = primes + String.valueOf(numbers[i]) + ",";
             }
         }
         return primes;
     }
 
-    private boolean isProme(int number) {
+    private boolean isPrime(int number) {
         if (number == 2) {
             return true;
         } else {

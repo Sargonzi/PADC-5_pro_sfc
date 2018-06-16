@@ -11,75 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb827f99-a151-4d23-a8d4-b7a6da50e1e6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_db_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_db_framework_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_room_common_1_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_room_runtime_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_0_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_26_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_1_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_8_8_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_annotations_8_8_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_retrofit_retrofit2_rxjava2_adapter_1_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_8_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_13_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxjava_2_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_greenrobot_eventbus_3_1_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_41_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_41_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mmtextview_mmtextview_1_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PADC-5_pro_sfc.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/data/db/AppDatabase.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/data/db/NewsDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/data/db/PublicationDao.java" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/SFCNewsApp.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/SFCNewsApp.java" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/activities/NewsListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/activities/NewsListActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/data/models/NewsModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/data/models/NewsModel.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/data/vo/NewsVO.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/data/vo/NewsVO.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/data/vo/PublicationVO.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/data/vo/PublicationVO.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/network/MMNewsAPI.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/network/MMNewsAPI.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/network/MMNewsDataAgentImpl.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/network/MMNewsDataAgentImpl.java" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -102,21 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NewsModel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NewsModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/data/models/NewsModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/data/db/NewsDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="476">
+              <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -145,8 +77,8 @@
       <file leaf-file-name="MMNewsAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/network/MMNewsAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="306">
+              <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -162,14 +94,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsListActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NewsListActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/activities/NewsListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="242" column="0" lean-forward="false" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
+            <state relative-caret-position="-1466">
+              <caret line="73" column="31" lean-forward="true" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2436#3121#0" expanded="true" />
+                <element signature="e#3120#3121#0" expanded="true" />
+                <element signature="e#3527#3807#0" expanded="true" />
+                <element signature="e#3806#3807#0" expanded="true" />
+                <element signature="e#6766#7005#0" expanded="true" />
+                <element signature="e#7004#7005#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseRecyclerAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/adapters/BaseRecyclerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -187,8 +135,8 @@
       <file leaf-file-name="SFCNewsApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/SFCNewsApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="604">
+              <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
               <folding>
                 <element signature="e#669#670#0" expanded="true" />
                 <element signature="e#698#699#0" expanded="true" />
@@ -2320,8 +2268,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/SFCNewsApp.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/network/MMNewsDataAgentImpl.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/network/MMNewsAPI.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/activities/NewsListActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/data/models/NewsModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/utils/PrimeCalculator.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/activities/NewsListActivity.java" />
       </list>
     </option>
   </component>
@@ -2419,36 +2368,6 @@
               <item name="sfc" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PADC-5_pro_sfc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PADC-5_pro_sfc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sfc" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PADC-5_pro_sfc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PADC-5_pro_sfc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sfc" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PADC-5_pro_sfc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PADC-5_pro_sfc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sfc" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2700,7 +2619,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2737,27 +2656,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/activities/NewsListActivity.java</url>
+          <line>138</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/events/RestApiEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/data/db/PublicationDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/SFCNewsApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -2842,6 +2753,12 @@
           <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2436#3121#0" expanded="true" />
+            <element signature="e#3120#3121#0" expanded="true" />
+            <element signature="e#3527#3807#0" expanded="true" />
+            <element signature="e#3806#3807#0" expanded="true" />
+            <element signature="e#6766#7005#0" expanded="true" />
+            <element signature="e#7004#7005#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3084,22 +3001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/network/MMNewsDataAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/network/MMNewsAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/data/db/NewsDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -3132,20 +3033,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/activities/NewsListActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/network/MMNewsAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="242" column="0" lean-forward="false" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/SFCNewsApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="604">
+          <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
           <folding>
             <element signature="e#669#670#0" expanded="true" />
             <element signature="e#698#699#0" expanded="true" />
@@ -3153,11 +3052,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/adapters/BaseRecyclerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/utils/PrimeCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/network/MMNewsDataAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/data/models/NewsModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/padcmyanmar/sfc/activities/NewsListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1466">
+          <caret line="73" column="31" lean-forward="true" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2436#3121#0" expanded="true" />
+            <element signature="e#3120#3121#0" expanded="true" />
+            <element signature="e#3527#3807#0" expanded="true" />
+            <element signature="e#3806#3807#0" expanded="true" />
+            <element signature="e#6766#7005#0" expanded="true" />
+            <element signature="e#7004#7005#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
