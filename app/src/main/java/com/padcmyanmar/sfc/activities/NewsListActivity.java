@@ -127,7 +127,7 @@ public class NewsListActivity extends BaseActivity
 
             @Override
             public void onError(Throwable e) {
-
+                Toast.makeText(getApplicationContext(), "The error message is : " + e.getMessage(), Toast.LENGTH_SHORT).show();
             }
 
             @Override

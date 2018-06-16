@@ -78,7 +78,7 @@ public class NewsModel {
 
                     @Override
                     public void onError(Throwable e) {
-
+                        publishSubject.onError(e);
                     }
 
                     @Override
