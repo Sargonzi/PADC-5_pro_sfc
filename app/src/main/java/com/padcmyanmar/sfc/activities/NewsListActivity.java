@@ -24,6 +24,7 @@ import com.padcmyanmar.sfc.data.vo.NewsVO;
 import com.padcmyanmar.sfc.delegates.NewsItemDelegate;
 import com.padcmyanmar.sfc.events.RestApiEvents;
 import com.padcmyanmar.sfc.events.TapNewsEvent;
+import com.padcmyanmar.sfc.utils.PrimeCalculator;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -60,6 +61,7 @@ public class NewsListActivity extends BaseActivity
     private NewsAdapter mNewsAdapter;
 
     private PublishSubject<List<NewsVO>> mNewsVOPublishSubject;
+    private PublishSubject<String> mErrormsg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -134,8 +136,7 @@ public class NewsListActivity extends BaseActivity
             }
         });
 
-        NewsModel.getInstance().loadMMNews(getApplicationContext());
-        NewsModel.getInstance().initPublishSubject(mNewsVOPublishSubject);
+        NewsModel.getInstance().loadMMNews(mNewsVOPublishSubject);
         calculatePrime();
     }
 
@@ -218,12 +219,11 @@ public class NewsListActivity extends BaseActivity
 
 
     public void calculatePrime() {
-
         Single<String> primeSingle = Single.fromCallable(new Callable<String>() {
             @Override
             public String call() throws Exception {
-                int[] numbers = new int[]{2, 34, 56, 23, 45, 43, 45, 24};
-                return calcPrime(numbers);
+                int[] numbers = {2, 34, 56, 23, 45, 43, 45, 24, 234, 23434, 345454, 45656756, 5676756, 334234, 54941};
+                return PrimeCalculator.calcPrime(numbers);
             }
         });
         primeSingle.subscribeOn(Schedulers.io())
@@ -247,29 +247,5 @@ public class NewsListActivity extends BaseActivity
                 });
     }
 
-    private String calcPrime(int... numbers) {
-        String primes = "";
-        for (int i = 0; i < numbers.length; i++) {
-            if (isPrime(numbers[i])) {
-                primes = primes + String.valueOf(numbers[i]) + ",";
-            }
-        }
-        return primes;
-    }
-
-    private boolean isPrime(int number) {
-        if (number == 2) {
-            return true;
-        } else {
-            for (int i = 2; i < number; i++) {
-                if (number % i == 0) {
-                    return false;
-                } else {
-                    return true;
-                }
-            }
-        }
-        return false;
-    }
 
 }
