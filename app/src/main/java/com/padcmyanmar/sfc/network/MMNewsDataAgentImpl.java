@@ -1,6 +1,7 @@
 package com.padcmyanmar.sfc.network;
 
 import com.google.gson.Gson;
+import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import com.padcmyanmar.sfc.events.RestApiEvents;
 import com.padcmyanmar.sfc.network.reponses.GetNewsResponse;
 
@@ -35,6 +36,7 @@ public class MMNewsDataAgentImpl implements MMNewsDataAgent {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://padcmyanmar.com/padc-3/mm-news/apis/")
                 .addConverterFactory(GsonConverterFactory.create(new Gson()))
+                .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .client(okHttpClient)
                 .build();
 
@@ -51,7 +53,7 @@ public class MMNewsDataAgentImpl implements MMNewsDataAgent {
 
     @Override
     public void loadMMNews(String accessToken, int pageNo) {
-        Call<GetNewsResponse> loadMMNewsCall = theAPI.loadMMNews(pageNo, accessToken);
+        /*Call<GetNewsResponse> loadMMNewsCall = theAPI.loadMMNews(pageNo, accessToken);
         loadMMNewsCall.enqueue(new Callback<GetNewsResponse>() {
             @Override
             public void onResponse(Call<GetNewsResponse> call, Response<GetNewsResponse> response) {
@@ -74,6 +76,6 @@ public class MMNewsDataAgentImpl implements MMNewsDataAgent {
                 RestApiEvents.ErrorInvokingAPIEvent errorEvent = new RestApiEvents.ErrorInvokingAPIEvent(t.getMessage());
                 EventBus.getDefault().post(errorEvent);
             }
-        });
+        });*/
     }
 }

@@ -5,12 +5,14 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.padcmyanmar.sfc.R;
 import com.padcmyanmar.sfc.SFCNewsApp;
@@ -18,6 +20,8 @@ import com.padcmyanmar.sfc.adapters.NewsAdapter;
 import com.padcmyanmar.sfc.components.EmptyViewPod;
 import com.padcmyanmar.sfc.components.SmartRecyclerView;
 import com.padcmyanmar.sfc.components.SmartScrollListener;
+import com.padcmyanmar.sfc.data.models.NewsModel;
+import com.padcmyanmar.sfc.data.vo.NewsVO;
 import com.padcmyanmar.sfc.delegates.NewsItemDelegate;
 import com.padcmyanmar.sfc.events.RestApiEvents;
 import com.padcmyanmar.sfc.events.TapNewsEvent;
@@ -27,9 +31,18 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
 import java.util.Date;
+import java.util.List;
+import java.util.concurrent.Callable;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import io.reactivex.Observer;
+import io.reactivex.Single;
+import io.reactivex.SingleObserver;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.disposables.Disposable;
+import io.reactivex.schedulers.Schedulers;
+import io.reactivex.subjects.PublishSubject;
 
 public class NewsListActivity extends BaseActivity
         implements NewsItemDelegate {
@@ -46,6 +59,8 @@ public class NewsListActivity extends BaseActivity
     private SmartScrollListener mSmartScrollListener;
 
     private NewsAdapter mNewsAdapter;
+
+    private PublishSubject<List<NewsVO>> mNewsVOPublishSubject;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,6 +92,8 @@ public class NewsListActivity extends BaseActivity
             }
         });
 
+        NewsModel.getInstance().initDatabase(getApplicationContext());
+
         rvNews.setEmptyView(vpEmptyNews);
         rvNews.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.VERTICAL, false));
         mNewsAdapter = new NewsAdapter(getApplicationContext(), this);
@@ -91,6 +108,33 @@ public class NewsListActivity extends BaseActivity
         });
 
         rvNews.addOnScrollListener(mSmartScrollListener);
+        mNewsVOPublishSubject = PublishSubject.create();
+        mNewsVOPublishSubject.subscribe(new Observer<List<NewsVO>>() {
+
+            @Override
+            public void onSubscribe(Disposable d) {
+
+            }
+
+            @Override
+            public void onNext(List<NewsVO> value) {
+                mNewsAdapter.appendNewData(value);
+                processPrime();
+            }
+
+            @Override
+            public void onError(Throwable e) {
+
+            }
+
+            @Override
+            public void onComplete() {
+
+            }
+        });
+
+        NewsModel.getInstance().loadMMNews(getApplicationContext());
+        NewsModel.getInstance().initPublishSubject(mNewsVOPublishSubject);
     }
 
     @Override
@@ -168,6 +212,62 @@ public class NewsListActivity extends BaseActivity
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onErrorInvokingAPI(RestApiEvents.ErrorInvokingAPIEvent event) {
         Snackbar.make(rvNews, event.getErrorMsg(), Snackbar.LENGTH_INDEFINITE).show();
+    }
+
+
+    public void processPrime() {
+
+        Single<String> primeSingle = Single.fromCallable(new Callable<String>() {
+            @Override
+            public String call() throws Exception {
+                int[] numbers = new int[]{2, 34, 56, 23, 45, 43};
+                return calcPrime(numbers);
+            }
+        });
+        primeSingle.subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new SingleObserver<String>() {
+                    @Override
+                    public void onSubscribe(Disposable d) {
+
+                    }
+
+                    @Override
+                    public void onSuccess(String value) {
+                        Toast.makeText(getApplicationContext(), value, Toast.LENGTH_LONG).show();
+                        Log.d("primes", value);
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+
+                    }
+                });
+    }
+
+    private String calcPrime(int... numbers) {
+        String primes = "";
+        for (int i = 0; i < numbers.length; i++) {
+            if (isProme(numbers[i])) {
+                primes = primes + String.valueOf(numbers[i]) + ",";
+            }
+        }
+        return primes;
+    }
+
+    private boolean isProme(int number) {
+        if (number == 2) {
+            return true;
+        } else {
+            for (int i = 2; i < number; i++) {
+                if (number % i == 0) {
+                    return false;
+                } else {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
 }

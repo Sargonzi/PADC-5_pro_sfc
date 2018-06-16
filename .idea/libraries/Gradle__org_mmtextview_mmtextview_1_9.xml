@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mmtextview:mmtextview-1.9">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mmtextview-1.9.aar/da84145a76aef873af4a2933f3c12d81/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mmtextview-1.9.aar/da84145a76aef873af4a2933f3c12d81/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mmtextview/mmtextview/1.9/432bd3dc481d56022749300f2090bbc4b8157811/mmtextview-1.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
